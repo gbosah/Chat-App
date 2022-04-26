@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Axios from 'axios';
 import Coins from './component/Coins';
-import { list } from 'postcss';
 import Navbar from './component/Navbar';
 
 function App() {
