@@ -3,9 +3,9 @@ import React from 'react';
 function Coins(props) {
 
     return (
-        <div className='relative p-2 text-justify w-screen bg-slate-400'>
-             <div className='flex flex-row justify-around mt-10 space-x-10'>
-           <div className='flex'> {props.num} <img src={props.icon} width={24} alt='crypto' className='mx-2'/> 
+        <div className='relative p-2 text-justify bg-slate-400 md:w-screen sm:w-screen'>
+             <div className='flex flex-row justify-around mt-10 space-x-10 md:justify-around sm:justify-between'>
+           <div className='flex md:z-10 lg:z-0 sm:z-10'> {props.num} <img src={props.icon} width={24} alt='crypto' className='mx-2'/> 
             {props.name} <span className='text-gray-400 mx-1'>{props.symbol}</span>
             </div>
            <div>{props.price}</div>
